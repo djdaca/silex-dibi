@@ -1,0 +1,13 @@
+{
+    "name": "djdaca/silex-dibi",
+    "description": "Dibi service provider for SILEX",
+    "require": {
+        "php": ">=5.3.0",
+		"silex/silex": "2.0.x-dev",
+    },
+    "autoload": {
+        "psr-0": {
+            "DJDaca\\Silex\\Provider": ["src/"]
+        }
+    }
+}
